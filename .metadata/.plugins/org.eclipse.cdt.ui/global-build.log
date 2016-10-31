@@ -1,0 +1,45 @@
+14:03:13 **** Build of configuration Debug for project Project-C++ ****
+make all 
+Building file: ../Enemy.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Enemy.d" -MT"Enemy.o" -o "Enemy.o" "../Enemy.cpp"
+Finished building: ../Enemy.cpp
+ 
+Building file: ../Game.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Game.d" -MT"Game.o" -o "Game.o" "../Game.cpp"
+Finished building: ../Game.cpp
+ 
+Building file: ../Inventory.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Inventory.d" -MT"Inventory.o" -o "Inventory.o" "../Inventory.cpp"
+Finished building: ../Inventory.cpp
+ 
+Building file: ../Item.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Item.d" -MT"Item.o" -o "Item.o" "../Item.cpp"
+Finished building: ../Item.cpp
+ 
+Building file: ../Player.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Player.d" -MT"Player.o" -o "Player.o" "../Player.cpp"
+Finished building: ../Player.cpp
+ 
+Building file: ../Store.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Store.d" -MT"Store.o" -o "Store.o" "../Store.cpp"
+Finished building: ../Store.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Project-C++
+Invoking: MacOS X C++ Linker
+g++  -o "Project-C++"  ./Enemy.o ./Game.o ./Inventory.o ./Item.o ./Player.o ./Store.o ./main.o   
+Finished building target: Project-C++
+ 
+14:03:59 **** Incremental Build of configuration Debug for project Project-C++ ****
+make all 
+make: Nothing to be done for `all'.
