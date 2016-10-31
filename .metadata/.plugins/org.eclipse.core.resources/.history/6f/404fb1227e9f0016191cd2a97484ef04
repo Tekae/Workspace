@@ -9,25 +9,28 @@
 import java.util.Scanner;
 public class main {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Punnett punnettSquare = new Punnett();
 		punnettSquare.square();
 		
 		
-		Scanner input = new Scanner(System.in);//User input
+		Scanner input = new Scanner(System.in);
 		System.out.println(input.nextLine());
-		 double decimal = input.nextDouble();
-		System.out.println(decimal);
+		System.out.println(input.nextLine());
+		input.nextLine();
 		
 		
 		
 		boolean condition = true;
 		long runoff =  11111111;
+		double decimal = 1.11;
+		int number = 1;
 		
-		int number = 0;
 		
-		
-		while (condition == true) {// Loops for set number of times
+		while (condition == true) {
 			if (condition) {
 				System.out.println("Condition is true.");
 				condition = false;
@@ -37,18 +40,9 @@ public class main {
 				condition = false;
 			}
 		}
-		switch (number) {//Tests a single variable
+		switch (number) {
 		case 1:
-			System.out.println("1");
-			break;
-		case 2:
-			System.out.println("2");
-			break;
-		case 3:
-			System.out.println("3");
-			break;
-		default:
-			System.out.println("Default");
+			
 		}
 	}
 	}

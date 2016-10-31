@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+
+/**
+ * @author dylangrant
+ *
+ */
+public class main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Punnett punnettSquare = new Punnett();
+		punnettSquare.square();
+		
+		
+		
+		
+		boolean condition = true;
+		//long runoff =  11111111;
+		//double decimal = 1.11;
+		//int number = 1;
+		//string word = "String";
+		
+        if (condition) { // begin block 1
+             System.out.println("Condition is true.");
+        } // end block one
+        else { // begin block 2
+             System.out.println("Condition is false.");
+        } // end block 2
+   }
+	}
+
+

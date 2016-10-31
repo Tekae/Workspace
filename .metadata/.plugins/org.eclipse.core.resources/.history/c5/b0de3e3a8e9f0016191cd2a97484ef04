@@ -9,12 +9,15 @@
 import java.util.Scanner;
 public class main {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Punnett punnettSquare = new Punnett();
 		punnettSquare.square();
 		
 		
-		Scanner input = new Scanner(System.in);//User input
+		Scanner input = new Scanner(System.in);
 		System.out.println(input.nextLine());
 		 double decimal = input.nextDouble();
 		System.out.println(decimal);
@@ -27,7 +30,7 @@ public class main {
 		int number = 0;
 		
 		
-		while (condition == true) {// Loops for set number of times
+		while (condition == true) {
 			if (condition) {
 				System.out.println("Condition is true.");
 				condition = false;
