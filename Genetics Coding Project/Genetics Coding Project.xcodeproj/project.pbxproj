@@ -8,7 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		DB57FD731DC785CC00F853FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB57FD721DC785CC00F853FD /* main.cpp */; };
+		DB57FD821DC789CB00F853FD /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB57FD801DC789CB00F853FD /* Game.cpp */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB57FD7D1DC787B200F853FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB57FD791DC787B200F853FD /* Text Based Game.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DB384C5B1DBE5E30004303FB;
+			remoteInfo = "Text Based Game";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		DB57FD6D1DC785CB00F853FD /* CopyFiles */ = {
@@ -25,6 +36,10 @@
 /* Begin PBXFileReference section */
 		DB57FD6F1DC785CC00F853FD /* Genetics Coding Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Genetics Coding Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB57FD721DC785CC00F853FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DB57FD791DC787B200F853FD /* Text Based Game.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Text Based Game.xcodeproj"; path = "/Users/dylangrant/Documents/Workspace/Text Based Game/Text Based Game.xcodeproj"; sourceTree = "<absolute>"; };
+		DB57FD7F1DC787E500F853FD /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		DB57FD801DC789CB00F853FD /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		DB57FD811DC789CB00F853FD /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +56,7 @@
 		DB57FD661DC785CB00F853FD = {
 			isa = PBXGroup;
 			children = (
+				DB57FD791DC787B200F853FD /* Text Based Game.xcodeproj */,
 				DB57FD711DC785CC00F853FD /* Genetics Coding Project */,
 				DB57FD701DC785CC00F853FD /* Products */,
 			);
@@ -58,8 +74,19 @@
 			isa = PBXGroup;
 			children = (
 				DB57FD721DC785CC00F853FD /* main.cpp */,
+				DB57FD7F1DC787E500F853FD /* main.h */,
+				DB57FD801DC789CB00F853FD /* Game.cpp */,
+				DB57FD811DC789CB00F853FD /* Game.h */,
 			);
 			path = "Genetics Coding Project";
+			sourceTree = "<group>";
+		};
+		DB57FD7A1DC787B200F853FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB57FD7E1DC787B200F853FD /* Text Based Game */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +134,12 @@
 			mainGroup = DB57FD661DC785CB00F853FD;
 			productRefGroup = DB57FD701DC785CC00F853FD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DB57FD7A1DC787B200F853FD /* Products */;
+					ProjectRef = DB57FD791DC787B200F853FD /* Text Based Game.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DB57FD6E1DC785CB00F853FD /* Genetics Coding Project */,
@@ -114,12 +147,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		DB57FD7E1DC787B200F853FD /* Text Based Game */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Text Based Game";
+			remoteRef = DB57FD7D1DC787B200F853FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB57FD6B1DC785CB00F853FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DB57FD731DC785CC00F853FD /* main.cpp in Sources */,
+				DB57FD821DC789CB00F853FD /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
